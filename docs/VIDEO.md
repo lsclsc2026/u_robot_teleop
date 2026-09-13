@@ -4,7 +4,7 @@
 
 [![主摄像头、Arm 与 Wrist 演示封面](media/overview.jpg)](https://github.com/lsclsc2026/u_robot_teleop/releases/tag/v0.1.0-review)
 
-[Release：原速演示 teleop-demo.mp4](https://github.com/lsclsc2026/u_robot_teleop/releases/tag/v0.1.0-review)。原演示约 55 秒，精确时长 54.534 秒，无音轨；发布版 H.264、1440×772、8,225,108 字节。处理仅缩放／压缩，没有加速或剪短；封面截自第 25 秒。文件信息与 SHA-256 见 [video-manifest.json](media/video-manifest.json)。原始录像不放入 Git，压缩演示作为 Release 资产提供。
+[Release：原速演示 teleop-demo-1x.mp4](https://github.com/lsclsc2026/u_robot_teleop/releases/tag/v0.1.0-review)。原演示约 55 秒，精确时长 54.534 秒，无音轨；发布版 H.264、1440×772、8,225,108 字节。处理仅缩放／压缩，没有加速或剪短；封面截自第 25 秒。文件信息与 SHA-256 见 [video-manifest.json](media/video-manifest.json)。原始录像不放入 Git，压缩演示作为 Release 资产提供。
 
 演示呈现一个主画面和右侧 Arm／Wrist 两个画面。容器文件的 30 FPS 是录像编码帧率，画面内约 20 FPS 的叠字也不能单独证明三路传感器输出、最新源码版本的解码速度或端到端延迟。
 
