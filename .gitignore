@@ -1,0 +1,45 @@
+# 本地环境与凭据
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.ssh/
+# Python / 构建输出
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+build/
+install/
+dist/
+node_modules/
+# 运行记录、原始数据与重复打包文件
+log/
+logs/
+*.log
+*.csv
+*.bag
+*.db3
+*.mcap
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+# 本地覆盖配置和系统文件
+config/local.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
