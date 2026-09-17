@@ -41,7 +41,7 @@ SSH 用于脚本部署、启动、退出和 Docker 心跳；连续运动指令�
 
 ## Docker 与宿主机
 
-狗接收器来自 [u_robot_move](https://github.com/lsclsc2026/u_robot_move) 的 `scripts/run_teleop_docker.sh`，历史容器内二进制为 `install/u_robot_teleop/lib/u_robot_teleop/a2_network_bridge`。这个 ROS 包名与本 GitHub 仓库名相同，但本仓库是上位机整合源码，不是该 Docker 工作区的替代品。
+狗接收器来自 [宇树四足机器人室内导航与多点巡逻](https://github.com/lsclsc2026/u_robot_move) 的 `scripts/run_teleop_docker.sh`，历史容器内二进制为 `install/u_robot_teleop/lib/u_robot_teleop/a2_network_bridge`。这个 ROS 包名与本 GitHub 仓库名相同，但本仓库是上位机整合源码，不是该 Docker 工作区的替代品。
 
 宿主机 `~/arm_remote` 保存从臂和视频环境；容器工作区与宿主机的同名目录可能是两份独立文件，不能假定自动同步。历史部署使用 host 网络，日志挂载为宿主机 `/home/unitree/unitree-data/logs` 到容器 `/home/unitree/data/logs`。具体新部署以关联工程的说明和当前 Docker 配置为准。
 

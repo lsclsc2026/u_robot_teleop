@@ -59,7 +59,7 @@ ARM_REAL_CONTROL=YES A2_REAL_CONTROL=YES ./start_stack_ble_pc_remote.sh
 
 ## 4. 明确选择 unitree-review 的分步运行
 
-先按关联 [u_robot_move](https://github.com/lsclsc2026/u_robot_move) 完成目标容器的遥操接收器部署，并停止导航任务。以下终端各自保持运行；分步方式没有组合脚本自动统一回收所有终端的功能。
+先按关联 [宇树四足机器人室内导航与多点巡逻](https://github.com/lsclsc2026/u_robot_move) 完成目标容器的遥操接收器部署，并停止导航任务。以下终端各自保持运行；分步方式没有组合脚本自动统一回收所有终端的功能。
 
 **终端 A，PC1 WSL：启动狗运动接收器。**
 

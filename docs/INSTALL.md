@@ -125,7 +125,7 @@ D435i SDK 分支使用宿主机 **`/usr/bin/python3`**，它必须能够加载�
 
 ## 6. Docker 运动接收器与可选 C++ 工程
 
-狗接收器安装参照 [u_robot_move](https://github.com/lsclsc2026/u_robot_move) 内的 `scripts/deploy_teleop_docker.sh`、`scripts/run_teleop_docker.sh` 与 `docs/teleop.md`。远端入口在本仓库中固定为 `/home/unitree/unitree_robot_development/u_robot_move/scripts/run_teleop_docker.sh`；另行克隆目录时需要保持兼容位置或调整部署副本。新导航发布默认容器 `unitree-review` 与本仓库历史默认 `unitree-dev` 的差异见[配置文档](CONFIGURATION.md)。
+狗接收器安装参照 [宇树四足机器人室内导航与多点巡逻](https://github.com/lsclsc2026/u_robot_move) 内的 `scripts/deploy_teleop_docker.sh`、`scripts/run_teleop_docker.sh` 与 `docs/teleop.md`。远端入口在本仓库中固定为 `/home/unitree/unitree_robot_development/u_robot_move/scripts/run_teleop_docker.sh`；另行克隆目录时需要保持兼容位置或调整部署副本。新导航发布默认容器 `unitree-review` 与本仓库历史默认 `unitree-dev` 的差异见[配置文档](CONFIGURATION.md)。
 
 `a2_joystick_lab` 包含原始 C++17 源码，需要 CMake >=3.16、Threads 和可由 `find_package(unitree_sdk2 REQUIRED)` 找到的 SDK2。仓库没有 SDK 或二进制。若维护者以后需要构建，命令为：
 

@@ -1,8 +1,8 @@
-# u_robot_teleop · A2 遥操作、SO-101 主从臂与三路视频
+# 宇树机器人遥操作与主从机械臂控制
 
 本仓库整理了 PC1 上位机的宇树手柄 BLE 转发、A2 UDP 遥控、SO-101 主从机械臂遥操作，以及主摄像头、机械臂全景和腕部摄像头的三路视频回传。它保留 2026-09-13 的实际项目源码、修改过的 LeRobot 和实验记录，便于另一台 PC1 或下位机恢复环境、阅读实现和继续维护。
 
-**PC1 Windows 负责 BLE，PC1 WSL 负责编排、主臂读取和视频显示；Unitree 宿主机负责从臂与摄像头，Docker 只负责机器狗运动接收。** Docker 运动接收器与导航工程在关联仓库 [u_robot_move](https://github.com/lsclsc2026/u_robot_move)。本仓库不能单独替代该下位机运行工程、SDK 或 Docker 镜像。
+**PC1 Windows 负责 BLE，PC1 WSL 负责编排、主臂读取和视频显示；Unitree 宿主机负责从臂与摄像头，Docker 只负责机器狗运动接收。** Docker 运动接收器与导航工程在关联仓库 [宇树四足机器人室内导航与多点巡逻](https://github.com/lsclsc2026/u_robot_move)。本仓库不能单独替代该下位机运行工程、SDK 或 Docker 镜像。
 
 [![A2 遥操作三路视频演示](docs/media/overview.jpg)](https://github.com/lsclsc2026/u_robot_teleop/releases/tag/v0.1.0-review)
 
